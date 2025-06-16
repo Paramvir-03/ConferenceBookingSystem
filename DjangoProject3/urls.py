@@ -21,10 +21,8 @@ from rest_framework.routers import DefaultRouter
 from room_booking_system import booking, urls
 from room_booking_system.booking.views import RoomViewSet
 
-router = DefaultRouter()
-router.register(r'rooms', RoomViewSet, basename='room')  # Enables /api/rooms/ and /api/rooms/<id>/
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('room_booking_system.urls')),
 path('api/', include('room_booking_system.booking.urls')),
 ]

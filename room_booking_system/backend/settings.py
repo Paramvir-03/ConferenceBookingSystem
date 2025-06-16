@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'room_booking_system.booking',
+'django_extensions',
 
 ]
 

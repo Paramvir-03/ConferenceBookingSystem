@@ -60,3 +60,53 @@ li {
   margin-bottom: 8px;
   border-radius: 6px;
 }
+
+.admin-panel {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #e9f0ff;
+  border: 1px solid #c5d8ff;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #2a4ce3;
+  color: white;
+}
+
+td button {
+  margin: 0 5px;
+  padding: 6px 10px;
+  font-size: 0.9rem;
+}
+
+td button:first-child {
+  background-color: #3498db;
+}
+
+td button:last-child {
+  background-color: #e74c3c;
+}
+
+.logout-button {
+  background-color: #555;
+  margin-bottom: 20px;
+}
+
+.logout-button:hover {
+  background-color: #333;
+}
+

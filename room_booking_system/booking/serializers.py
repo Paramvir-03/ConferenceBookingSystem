@@ -51,7 +51,9 @@ class BookingSerializer(serializers.ModelSerializer):
             'end_time',
             'end_time_local'     # Localized for UI
         ]
-
+        extra_kwargs = {
+            'user': {'required': False}  # ✅ This line makes 'user' optional
+        }
     def get_start_time_local(self, obj):
         return localtime(obj.start_time).strftime('%Y-%m-%d %H:%M')
 

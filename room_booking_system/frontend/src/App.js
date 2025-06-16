@@ -217,18 +217,20 @@ function ReserveForUsers({ token }) {
   const [users, setUsers] = useState([]);
   const [form, setForm] = useState({
     room: '',
-    user_id: '',
+    user: '',
     start_time: '',
     end_time: '',
   });
 
   useEffect(() => {
-    axios.get('http://127.0.0.1:8000/api/rooms/')
-      .then(res => setRooms(res.data));
-    axios.get('http://127.0.0.1:8000/api/users/', {
-      headers: { Authorization: `Token ${token}` }
-    }).then(res => setUsers(res.data));
-  }, [token]);
+  axios.get('http://127.0.0.1:8000/api/rooms/', {
+    headers: { Authorization: `Token ${token}` }
+  }).then(res => setRooms(res.data));
+
+  axios.get('http://127.0.0.1:8000/api/users/', {
+    headers: { Authorization: `Token ${token}` }
+  }).then(res => setUsers(res.data));
+}, [token]);
 
   const handleChange = e => {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -251,7 +253,7 @@ function ReserveForUsers({ token }) {
       <h3>Reserve for Users</h3>
       <form onSubmit={handleSubmit}>
         <label>User:</label>
-        <select name="user_id" value={form.user_id} onChange={handleChange} required>
+        <select name="user" value={form.user} onChange={handleChange} required>
           <option value="">-- Select User --</option>
           {users.map(u => (
             <option key={u.id} value={u.id}>{u.username}</option>

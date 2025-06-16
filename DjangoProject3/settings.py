@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'room_booking_system.booking',
     'rest_framework.authtoken',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [

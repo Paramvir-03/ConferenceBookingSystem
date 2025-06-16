@@ -5,22 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b8d296d-861c-49f9-82d1-3cfdd41af4c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DjangoProject3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/room_booking_system/booking/decorators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/room_booking_system/booking/permissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/room_booking_system/booking/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/room_booking_system/booking/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/room_booking_system/booking/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/room_booking_system/frontend/src/pages/BookRoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/room_booking_system/frontend/src/pages/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/room_booking_system/frontend/src/pages/MyBookings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/room_booking_system/frontend/src/pages/Rooms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/room_booking_system/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/room_booking_system/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoProject3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject3/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoProject3/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoProject3/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/room_booking_system/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/room_booking_system/backend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/room_booking_system/booking/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/room_booking_system/booking/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/room_booking_system/booking/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/room_booking_system/booking/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/room_booking_system/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/room_booking_system/frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/room_booking_system/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/room_booking_system/frontend/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,21 +43,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PyCharm 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PyCharm 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="DjangoProject3" type="Python.DjangoServer" factoryName="Django server">
       <module name="DjangoProject3" />
@@ -118,7 +112,7 @@
       <workItem from="1749989735245" duration="361000" />
       <workItem from="1750049589000" duration="643000" />
       <workItem from="1750057214337" duration="3872000" />
-      <workItem from="1750069697509" duration="994000" />
+      <workItem from="1750069697509" duration="4681000" />
     </task>
     <servers />
   </component>

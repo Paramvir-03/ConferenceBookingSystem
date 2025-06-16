@@ -188,10 +188,11 @@ def book_room(request):
                 user = User.objects.get(id=request.data['user_id'])
             except User.DoesNotExist:
                 return Response({'error': 'Target user not found.'}, status=404)
+        print("Saving booking for user:", user.username)
 
         serializer.save(user=user)
         return Response({'message': 'Room booked successfully!'}, status=201)
-
+    print("Validation error:", serializer.errors)  # Optional: debug info
     return Response(serializer.errors, status=400)
 
 @api_view(['GET'])
